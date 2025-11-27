@@ -4,5 +4,14 @@
         display: flex;
         align-items: center;
     }
-    
+
+}
+.user-list-item .user-list-arrow-icon{
+    transition: all 200ms ease;
+}
+.user-list-item.active .user-list-arrow-icon{
+    transform: rotate(180deg);
+}
+.user-list-item.active{
+    background-color: rgb(185, 185, 185);
 }
