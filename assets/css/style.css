@@ -1,4 +1,8 @@
-.m-background{
-    width: 100%;
-    height: 200px;
+@media(min-width:600px) {
+
+    #top-action-section{
+        display: flex;
+        align-items: center;
+    }
+    
 }
